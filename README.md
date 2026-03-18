@@ -18,11 +18,13 @@ Este no es el típico Tic-Tac-Toe "rústico". El enfoque principal fue el diseñ
 1. **Clonar el repositorio:**
    ```bash
    git clone [https://github.com/tu-usuario/tic-tac-toe-24000141.git](https://github.com/tu-usuario/tic-tac-toe-24000141.git)
-Instalar las dependencias:
-  npm install
-Iniciar el sistema:
-  npm run dev
-🎮 Comandos de Interfaz
+2. Instalar las dependencias:
+   ```bash
+   npm install
+4. Iniciar el sistema:
+   ```bash
+     npm run dev
+## 🎮 Comandos de Interfaz
 Marcar Celda: Haz clic en cualquier intersección de la rejilla.
 
 Log de Movimiento: Haz clic en los botones laterales para "viajar en el tiempo" a una jugada anterior.
