@@ -1,7 +1,31 @@
-Una implementación moderna y de alto impacto visual del clásico juego Gato (Tic-Tac-Toe), desarrollada con React y una interfaz de usuario inspirada en terminales de grado industrial y estética Cyberpunk.
-Características PrincipalesInterfaz XL: Tablero masivo de $600px \times 600px$ para una experiencia inmersiva.Diseño "Industrial HUD": Estética basada en rejillas de ingeniería, fuentes monoespaciadas y efectos de resplandor (glow).Viaje en el Tiempo (Time Travel): Registro de movimientos (LOG_MOVIMIENTO) que permite regresar a cualquier estado anterior de la partida.Animaciones Holográficas: Los símbolos X y O aparecen con un efecto de parpadeo digital (Flicker-in).Botón de Reinicio de Núcleo: Un disparador estilizado con clip-path para limpiar el sistema instantáneamente.🛠️ Tecnologías UtilizadasReact.js: Manejo de estado dinámico e historial de jugadas.CSS Moderno: Uso intensivo de CSS Grid, Variables CSS, y Animations.Google Fonts: Integración de JetBrains Mono para ese look de terminal técnica.
-Instalación y ConfiguraciónSigue estos pasos para ejecutar el núcleo en tu entorno local:Clonar el repositorio:Bashgit clone https://github.com/tu-usuario/nombre-del-repo.git
-Instalar dependencias:Bashnpm install
-Lanzar el entorno de desarrollo:Bashnpm run dev
-Cómo Jugar
-El sistema inicia automáticamente en el Turno X.Haz clic en cualquier celda de la matriz para realizar un movimiento.El sistema validará automáticamente si existe un ganador o un empate.Utiliza el panel lateral de LOG_MOVIMIENTO para auditar jugadas pasadas o corregir una estrategia.Pulsa REINICIAR NÚCLEO para purgar los datos y comenzar una nueva sesión.
+# 🕹️ MATRIX_TIC_TAC_TOE
+
+Una implementación de alto impacto visual del clásico juego Gato (Tic-Tac-Toe), construida con **React** y una interfaz de usuario inspirada en terminales de grado industrial y estética **Cyber-Matrix**.
+---
+
+##  Características del Sistema
+
+Este no es el típico Tic-Tac-Toe "rústico". El enfoque principal fue el diseño **UI/UX masivo**:
+
+* **Tablero XL:** Una matriz dominante de `600px` con rejilla de ingeniería.
+* **Estética HUD:** Uso de fuentes monoespaciadas (*JetBrains Mono*), efectos de resplandor (glow) y transparencias.
+* **Time Travel Logs:** Registro dinámico de movimientos que permite auditar y regresar a estados previos de la partida.
+* **Reactividad de Neón:** Colores diferenciados para jugadores (`X` en Púrpura, `O` en Cian) con animaciones de parpadeo digital.
+* **Interfaz Responsiva:** Aunque es un tablero grande, el layout se ajusta para mantener la simetría.
+
+## 📦 Instalación Rápida
+
+1. **Clonar el repositorio:**
+   ```bash
+   git clone [https://github.com/tu-usuario/tic-tac-toe-24000141.git](https://github.com/tu-usuario/tic-tac-toe-24000141.git)
+Instalar las dependencias:
+  npm install
+Iniciar el sistema:
+  npm run dev
+🎮 Comandos de Interfaz
+Marcar Celda: Haz clic en cualquier intersección de la rejilla.
+
+Log de Movimiento: Haz clic en los botones laterales para "viajar en el tiempo" a una jugada anterior.
+
+Reiniciar Núcleo: Limpia todos los registros y vuelve al estado inicial de la matriz.
+   
