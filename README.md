@@ -1,16 +1,7 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Una implementación moderna y de alto impacto visual del clásico juego Gato (Tic-Tac-Toe), desarrollada con React y una interfaz de usuario inspirada en terminales de grado industrial y estética Cyberpunk.
+Características PrincipalesInterfaz XL: Tablero masivo de $600px \times 600px$ para una experiencia inmersiva.Diseño "Industrial HUD": Estética basada en rejillas de ingeniería, fuentes monoespaciadas y efectos de resplandor (glow).Viaje en el Tiempo (Time Travel): Registro de movimientos (LOG_MOVIMIENTO) que permite regresar a cualquier estado anterior de la partida.Animaciones Holográficas: Los símbolos X y O aparecen con un efecto de parpadeo digital (Flicker-in).Botón de Reinicio de Núcleo: Un disparador estilizado con clip-path para limpiar el sistema instantáneamente.🛠️ Tecnologías UtilizadasReact.js: Manejo de estado dinámico e historial de jugadas.CSS Moderno: Uso intensivo de CSS Grid, Variables CSS, y Animations.Google Fonts: Integración de JetBrains Mono para ese look de terminal técnica.
+Instalación y ConfiguraciónSigue estos pasos para ejecutar el núcleo en tu entorno local:Clonar el repositorio:Bashgit clone https://github.com/tu-usuario/nombre-del-repo.git
+Instalar dependencias:Bashnpm install
+Lanzar el entorno de desarrollo:Bashnpm run dev
+Cómo Jugar
+El sistema inicia automáticamente en el Turno X.Haz clic en cualquier celda de la matriz para realizar un movimiento.El sistema validará automáticamente si existe un ganador o un empate.Utiliza el panel lateral de LOG_MOVIMIENTO para auditar jugadas pasadas o corregir una estrategia.Pulsa REINICIAR NÚCLEO para purgar los datos y comenzar una nueva sesión.
